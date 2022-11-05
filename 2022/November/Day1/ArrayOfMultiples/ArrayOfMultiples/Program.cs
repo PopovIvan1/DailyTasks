@@ -12,7 +12,6 @@ namespace ArrayOfMultiples
         static void Main(string[] args)
         {
             Console.WriteLine(string.Join(" ", ArrayOfMultiples(4, 7)));
-            Console.WriteLine(string.Join(" ", Enumerable.Range(1, 7).ToArray()));
             Console.ReadLine();
         }
 
