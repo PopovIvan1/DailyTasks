@@ -1,1 +1,1 @@
-# DailyTasks
+In this project I will solve programming tasks daily to improve my skills.
