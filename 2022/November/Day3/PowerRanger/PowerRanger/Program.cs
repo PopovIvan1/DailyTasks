@@ -16,11 +16,7 @@ namespace PowerRanger
 
         public static int PowerRanger(int power, int min, int max)
         {
-            int maxNumber = (int)Math.Pow(max, (double)1 / power);
-            int minNumber = (int)Math.Pow(min, (double)1 / power);
-            int border = 0;
-            if ((min == (int)Math.Pow(minNumber, power)) && (max == (int)Math.Pow(maxNumber, power))) border++;
-            return maxNumber - minNumber + border;
+            return (int)(Math.Pow(max, (double)1 / power) - Math.Pow(min, (double)1 / power)) + 1;
         }
     }
 }
