@@ -1,0 +1,1 @@
+You have to write a c# code that prints the longest common substring of passed arguments.
