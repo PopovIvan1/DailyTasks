@@ -1,0 +1,1 @@
+Write a program that prints the first non-blank line from the input.txt file to the console.
